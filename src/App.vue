@@ -19,7 +19,7 @@
       <span v-else-if="spAnswer==='medyo hirap'">Kaya pa yan</span>
       <span v-else>Fighting!!!</span>
       <br/>
-      <span v-show="spAnswer==='hindi pa ako nagcoconsult'">consult ka na pre</span>
+      <span v-show="spAnswer==='hindi pa ko nagcoconsult'">consult ka na pre</span>
     </div>
     <div v-show="demo==='Computed Values'">
       <input type="number" v-model="number"/>
